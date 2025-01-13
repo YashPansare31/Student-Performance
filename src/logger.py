@@ -13,7 +13,7 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-logger = logging.getLogger("Project_Logger")
+#logger = logging.getLogger("Project_Logger")
 
 '''
 if __name__=="__main__":
