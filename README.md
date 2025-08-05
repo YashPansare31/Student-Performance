@@ -15,52 +15,45 @@ This project leverages machine learning to predict student exam performance base
 - **Responsive Design**: Works seamlessly across different devices and screen sizes
 
 ## 🏗️ Project Structure
- artifacts/                      
-│   ├── data.csv                
-│   ├── model.pkl               
-│   ├── proprocessor.pkl         
-│   ├── test.csv                 
-│   └── train.csv                
-│
-├── catboost_info/               
-│   ├── learn/                   
-│   ├── catboost_training.json   
-│   ├── learn_error.tsv          
-│   └── time_left.tsv            
-│
-├── myenv/                       
-│
-├── notebook/                    
-│   ├── data/                    
-│   ├── EDA STUDENT PERF...      
-│   └── MODEL TRAINING.i...      
-│
-├── src/                        
-│   ├── components/              
-│   │   ├── __init__.py          
-│   │   ├── data_ingestion.py    
+student-performance-prediction/
+├── .ebextensions/
+├── artifacts/
+│   ├── data.csv
+│   ├── model.pkl
+│   ├── proprocessor.pkl
+│   ├── test.csv
+│   └── train.csv
+├── catboost_info/
+│   ├── learn/
+│   ├── catboost_training.json
+│   ├── learn_error.tsv
+│   └── time_left.tsv
+├── notebook/
+│   ├── data/
+│   ├── EDA_STUDENT_PERFORMANCE.ipynb
+│   └── MODEL_TRAINING.ipynb
+├── src/
+│   ├── components/
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py
 │   │   ├── data_transformation.py
-│   │   └── model_trainer.py     
-│   │
-│   ├── pipeline/                
-│   │   ├── __init__.py        
-│   │   ├── predict_pipeline.py 
-│   │   └── train_pipeline.py   
-│   │
-│   ├── __init__.py            
-│   ├── exception.py            
-│   ├── logger.py               
-│   └── utils.py                
-│
-├── templates/                   
-│   ├── index.html              
-│   └── home.html               
-│
-├── .gitignore                  
-├── app.py                      
-├── README.md                   
-├── requirements.txt            
-└── setup.py      
+│   │   └── model_trainer.py
+│   ├── pipeline/
+│   │   ├── __init__.py
+│   │   ├── predict_pipeline.py
+│   │   └── train_pipeline.py
+│   ├── __init__.py
+│   ├── exception.py
+│   ├── logger.py
+│   └── utils.py
+├── templates/
+│   ├── index.html
+│   └── home.html
+├── .gitignore
+├── app.py
+├── README.md
+├── requirements.txt
+└── setup.py
 
 ## 🚀 Quick Start
 
