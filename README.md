@@ -15,6 +15,7 @@ This project leverages machine learning to predict student exam performance base
 - **Responsive Design**: Works seamlessly across different devices and screen sizes
 
 ## 🏗️ Project Structure
+'''
 student-performance-prediction/
 ├── .ebextensions/
 ├── artifacts/
@@ -54,7 +55,7 @@ student-performance-prediction/
 ├── README.md
 ├── requirements.txt
 └── setup.py
-
+'''
 ## 🚀 Quick Start
 
 ### Prerequisites
