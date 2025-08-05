@@ -15,51 +15,51 @@ This project leverages machine learning to predict student exam performance base
 - **Responsive Design**: Works seamlessly across different devices and screen sizes
 
 ## 🏗️ Project Structure
- artifacts/                      # Generated ML artifacts
-│   ├── data.csv                   # 📊 Generated: Processed dataset
-│   ├── model.pkl                  # 🤖 Generated: Trained ML model
-│   ├── proprocessor.pkl           # 🔧 Generated: Data preprocessing pipeline
-│   ├── test.csv                   # 📋 Generated: Test dataset split
-│   └── train.csv                  # 📚 Generated: Training dataset split
+ artifacts/                      
+│   ├── data.csv                
+│   ├── model.pkl               
+│   ├── proprocessor.pkl         
+│   ├── test.csv                 
+│   └── train.csv                
 │
-├── catboost_info/                 # CatBoost model information
-│   ├── learn/                     # Learning process files
-│   ├── catboost_training.json     # 📈 Generated: Training configuration
-│   ├── learn_error.tsv           # 📉 Generated: Learning error logs
-│   └── time_left.tsv             # ⏱️ Generated: Training time estimates
+├── catboost_info/               
+│   ├── learn/                   
+│   ├── catboost_training.json   
+│   ├── learn_error.tsv          
+│   └── time_left.tsv            
 │
-├── myenv/                         # Virtual environment (typically in .gitignore)
+├── myenv/                       
 │
-├── notebook/                      # Jupyter notebooks for analysis
-│   ├── data/                     # Raw data for notebooks
-│   ├── EDA STUDENT PERF...       # 📊 Created: Exploratory Data Analysis
-│   └── MODEL TRAINING.i...       # 🎯 Created: Model training notebook
+├── notebook/                    
+│   ├── data/                    
+│   ├── EDA STUDENT PERF...      
+│   └── MODEL TRAINING.i...      
 │
-├── src/                          # Source code directory
-│   ├── components/               # Core ML components
-│   │   ├── __init__.py          # 📝 Created: Package initializer
-│   │   ├── data_ingestion.py    # 📥 Created: Data loading and ingestion
-│   │   ├── data_transformation.py # 🔄 Created: Feature engineering
-│   │   └── model_trainer.py     # 🏋️ Created: Model training logic
+├── src/                        
+│   ├── components/              
+│   │   ├── __init__.py          
+│   │   ├── data_ingestion.py    
+│   │   ├── data_transformation.py
+│   │   └── model_trainer.py     
 │   │
-│   ├── pipeline/                # Prediction pipeline
-│   │   ├── __init__.py         # 📝 Created: Package initializer
-│   │   ├── predict_pipeline.py # 🔮 Created: Prediction logic
-│   │   └── train_pipeline.py   # 🚂 Created: Training pipeline
+│   ├── pipeline/                
+│   │   ├── __init__.py        
+│   │   ├── predict_pipeline.py 
+│   │   └── train_pipeline.py   
 │   │
-│   ├── __init__.py             # 📝 Created: Package initializer
-│   ├── exception.py            # ⚠️ Created: Custom exception handling
-│   ├── logger.py               # 📋 Created: Logging configuration
-│   └── utils.py                # 🛠️ Created: Utility functions
+│   ├── __init__.py            
+│   ├── exception.py            
+│   ├── logger.py               
+│   └── utils.py                
 │
-├── templates/                   # HTML templates (not visible in images)
-│   ├── index.html              # 🏠 Created: Landing page
-│   └── home.html               # 📝 Created: Prediction form page
+├── templates/                   
+│   ├── index.html              
+│   └── home.html               
 │
-├── .gitignore                  # 🚫 Created: Git ignore file
-├── app.py                      # 🌐 Created: Flask web application
-├── README.md                   # 📖 Created: Project documentation
-├── requirements.txt            # 📦 Created: Python dependencies
+├── .gitignore                  
+├── app.py                      
+├── README.md                   
+├── requirements.txt            
 └── setup.py      
 
 ## 🚀 Quick Start
